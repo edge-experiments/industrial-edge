@@ -10,21 +10,21 @@ global:
     installPlanApproval: Automatic
 
   imageregistry:
-    account: PLAINTEXT
+    account: pdettori
     hostname: quay.io
     type: quay
 
   git:
     hostname: github.com
-    account: PLAINTEXT
-    username: PLAINTEXT
-    email: SOMEWHERE@EXAMPLE.COM
+    account: edge-experiments
+    username: pdettori
+    email: dettori@us.ibm.com
     dev_revision: main
 
   s3:
     bucket:
-      name: S3BUCKETNAME
-      region: AWSREGION
+      name: kystbucket1
+      region: us-west-2
       message:
         aggregation:
           count: 100
